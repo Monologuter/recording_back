@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.recording.mapper.CtiCallRecordMapper">
+  <insert id="insertCtiCallRecord"></insert>
+
+  <update id="updateCtiCallRecord"></update>
+
+  <delete id="deleteCtiCallRecordById">
+    delete ctr_new_db.cti_call_record from  where id = #{id}
+  </delete>
+
+  <delete id="deleteCtiCallRecordByIds"></delete>
+
+<!--  <select id="selectCtiCallRecordList" resultType="com.ruoyi.recording.domain.CtiCallRecord">-->
+<!--    select * from ctr_new_db.cti_call_record  order by channelcreatetime desc ;-->
+<!--  </select>-->
+  <resultMap type="com.ruoyi.recording.domain.CtiCallRecord" id="CtiCallRecord">
+    <result property="caller"    column="caller"    />
+    <result property="callee"    column="callee"    />
+    <result property="type"    column="type"    />
+    <result property="channelcreatetime"    column="channelcreatetime"    />
+    <result property="channelanswertime"    column="channelanswertime"    />
+    <result property="channelhanguptime"    column="channelhanguptime"    />
+    <result property="recordingaddress"    column="recordingAddress"    />
+  </resultMap>
+
+<!--  <sql id="selectCtiCallRecordVo">-->
+<!--    select * from ctr_new_db.cti_call_record  where type  in (1,2) order by channelcreatetime desc-->
+<!--  </sql>-->
+
+  <select id="selectCtiCallRecordList" parameterType="com.ruoyi.recording.domain.CtiCallRecord" resultMap="CtiCallRecord">
+    select * from ctr_new_db.cti_call_record where type  in (1,2)
+      <if test="caller != null  and caller != ''"> and caller like '%${caller}%'</if>
+      <if test="callee != null  and callee != ''"> and callee like '%${callee}%'</if>
+      <if test="type != null  and type != ''"> and type = #{type}</if>
+      <if test="startTime != null and startTime!=''">and  UNIX_TIMESTAMP(concat( #{startTime},' 00:00:00'))*1000 &lt;channelcreatetime</if>
+      <if test="endTime   != null and endTime!=''">and    UNIX_TIMESTAMP(concat( #{endTime}, ' 23:59:59'))*1000   &gt;channelcreatetime</if>
+    order by channelcreatetime desc
+  </select>
+
+<!--  <select id="selectCtiCallRecordById" resultType="com.ruoyi.recording.domain.CtiCallRecord">-->
+<!--        <include refid="selectCtiCallRecordVo"/>-->
+<!--        where id = #{id}-->
+<!--  </select>-->
+</mapper>

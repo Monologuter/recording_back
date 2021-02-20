@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.gb.mapper.GbMonitorMapper">
+    
+    <resultMap type="GbMonitor" id="GbMonitorResult">
+        <result property="id"    column="id"    />
+        <result property="name"    column="name"    />
+        <result property="deviceId"    column="device_id"    />
+        <result property="createtime"    column="createtime"    />
+        <result property="cameraNo"    column="camera_no"    />
+        <result property="cameraUrl"    column="camera_url"    />
+        <result property="cameraAccount"    column="camera_account"    />
+        <result property="cameraPasswd"    column="camera_passwd"    />
+        <result property="cameraHead"    column="camera_head"    />
+        <result property="addressId"    column="address_id"    />
+        <result property="domainId"    column="domain_id"    />
+        
+        <result property="longitude"    column="longitude"    />
+        <result property="latitude"    column="latitude"    />
+        <result property="ip_address"    column="ipAddress"    />
+        
+        
+    </resultMap>
+
+    <sql id="selectGbMonitorVo">
+        select id, name, device_id, createtime, camera_no, camera_url, camera_account, camera_passwd, camera_head,address_id,
+        domain_id,longitude,latitude,ip_address from gb_monitor
+    </sql>
+
+    <select id="selectGbMonitorList" parameterType="GbMonitor" resultMap="GbMonitorResult">
+        <include refid="selectGbMonitorVo"/>
+        <where>  
+            <if test="name != null  and name != ''"> and name like concat('%', #{name}, '%')</if>
+            <if test="deviceId != null  and deviceId != ''"> and device_id = #{deviceId}</if>
+            <if test="createtime != null  and createtime != ''"> and createtime = #{createtime}</if>
+            <if test="cameraNo != null  and cameraNo != ''"> and camera_no = #{cameraNo}</if>
+            <if test="cameraUrl != null  and cameraUrl != ''"> and camera_url = #{cameraUrl}</if>
+            <if test="cameraAccount != null  and cameraAccount != ''"> and camera_account = #{cameraAccount}</if>
+            <if test="cameraPasswd != null  and cameraPasswd != ''"> and camera_passwd = #{cameraPasswd}</if>
+            <if test="cameraHead != null  and cameraHead != ''"> and camera_head = #{cameraHead}</if>
+            <if test="addressId != null  and addressId != ''"> and address_id = #{addressId}</if>
+            <if test="domainId != null  and domainId != ''"> and domain_id = #{domainId}</if>
+            
+            <if test="longitude != null  and longitude != ''"> and longitude = #{longitude}</if>
+            <if test="latitude != null  and latitude != ''"> and latitude = #{latitude}</if>
+            <if test="ipAddress != null  and ipAddress != ''"> and ip_address = #{ipAddress}</if>
+        </where>
+    </select>
+    
+    <select id="listMonitorToAddress" parameterType="string" resultMap="GbMonitorResult">
+        SELECT
+			m.*
+		FROM
+		  gb_monitor m  
+		where m.address_id = #{addressId};
+    </select>
+    
+    <select id="selectGbMonitorById" parameterType="String" resultMap="GbMonitorResult">
+        <include refid="selectGbMonitorVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertGbMonitor" parameterType="GbMonitor">
+        insert into gb_monitor
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="name != null">name,</if>
+            <if test="deviceId != null">device_id,</if>
+            <if test="createtime != null">createtime,</if>
+            <if test="cameraNo != null">camera_no,</if>
+            <if test="cameraUrl != null">camera_url,</if>
+            <if test="cameraAccount != null">camera_account,</if>
+            <if test="cameraPasswd != null">camera_passwd,</if>
+            <if test="cameraHead != null">camera_head,</if>
+            <if test="addressId != null">address_id,</if>
+            <if test="domainId != null">domain_id,</if>
+            <if test="longitude != null">longitude,</if>
+            <if test="latitude != null">latitude,</if>
+            <if test="ipAddress != null">ip_address,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id},</if>
+            <if test="name != null">#{name},</if>
+            <if test="deviceId != null">#{deviceId},</if>
+            <if test="createtime != null">#{createtime},</if>
+            <if test="cameraNo != null">#{cameraNo},</if>
+            <if test="cameraUrl != null">#{cameraUrl},</if>
+            <if test="cameraAccount != null">#{cameraAccount},</if>
+            <if test="cameraPasswd != null">#{cameraPasswd},</if>
+            <if test="cameraHead != null">#{cameraHead},</if>
+            <if test="addressId != null">#{addressId},</if>
+            <if test="domainId != null">#{domainId},</if>
+            <if test="longitude != null">#{longitude},</if>
+            <if test="latitude != null">#{latitude},</if>
+            <if test="ipAddress != null">#{ipAddress}</if>
+         </trim>
+    </insert>
+
+    <update id="updateGbMonitor" parameterType="GbMonitor">
+        update gb_monitor
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="name != null">name = #{name},</if>
+            <if test="deviceId != null">device_id = #{deviceId},</if>
+            <if test="createtime != null">createtime = #{createtime},</if>
+            <if test="cameraNo != null">camera_no = #{cameraNo},</if>
+            <if test="cameraUrl != null">camera_url = #{cameraUrl},</if>
+            <if test="cameraAccount != null">camera_account = #{cameraAccount},</if>
+            <if test="cameraPasswd != null">camera_passwd = #{cameraPasswd},</if>
+            <if test="cameraHead != null">camera_head = #{cameraHead},</if>
+            <if test="addressId != null">address_id = #{addressId},</if>
+            <if test="domainId != null">domain_id = #{domainId},</if>
+            
+            <if test="longitude != null">longitude = #{longitude},</if>
+            <if test="latitude != null">latitude = #{latitude},</if>
+            <if test="ipAddress != null">ip_address = #{ipAddress},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteGbMonitorById" parameterType="String">
+        delete from gb_monitor where id = #{id}
+    </delete>
+
+    <delete id="deleteGbMonitorByIds" parameterType="String">
+        delete from gb_monitor where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    
+</mapper>

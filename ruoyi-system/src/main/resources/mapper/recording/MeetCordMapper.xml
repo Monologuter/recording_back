@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.recording.mapper.CtiMeetRecordMapper">
+  <insert id="insertCtiMeetRecord"></insert>
+  <update id="updateCtiMeetRecord"></update>
+  <delete id="deleteCtiMeetRecordById"></delete>
+  <delete id="deleteCtiMeetRecordByIds"></delete>
+
+  <select id="selectCtiMeetRecordById" resultType="com.ruoyi.recording.domain.CtiMeetRecord"></select>
+
+  <resultMap type="com.ruoyi.recording.domain.CtiMeetRecord" id="CtiMeetRecord">
+    <result property="id"    column="id"    />
+    <result property="meetname"    column="meetname"    />
+    <result property="meetnum"    column="meetnum"    />
+    <result property="starttime"    column="starttime"    />
+    <result property="endtime"    column="endtime"    />
+    <result property="uuid"    column="uuid"    />
+    <result property="video"    column="video"    />
+    <result property="meetmeber"    column="meetMeber"    />
+    <result property="url"    column="url"    />
+    <result property="type"    column="type"    />
+    <result property="name"    column="name"    />
+    <result property="phorex"    column="phorex"    />
+  </resultMap>
+
+
+
+  <select id="selectCtiMeetRecordList" parameterType="com.ruoyi.recording.domain.CtiMeetRecord" resultMap="CtiMeetRecord">
+    select * from ctr_new_db.cti_meet_record where type in (1,2)
+    <if test="meetname != null  and meetname != ''"> and meetname like '%${meetname}%'</if>
+    <if test="type != null  and type != ''"> and type = #{type}</if>
+    <if test="meetnum != null  and meetnum != ''"> and meetnum like '%${meetnum}%'</if>
+    <if test="startDate != null and startDate!=''">and  UNIX_TIMESTAMP(concat( #{startDate},' 00:00:00')) &lt;starttime</if>
+    <if test="endDate   != null and endDate!=''">and    UNIX_TIMESTAMP(concat( #{endDate}, ' 23:59:59'))  &gt;starttime</if>
+    order by starttime desc
+  </select>
+</mapper>

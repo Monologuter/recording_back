@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.gb.mapper.GbConfigMapper">
+    
+    <resultMap type="com.ruoyi.gb.domain.GbConfig" id="GbConfigResult">
+        <result property="id"    column="id"    />
+        <result property="name"    column="name"    />
+        <result property="createTime"    column="create_time"    />
+        <result property="state"    column="state"    />
+        <result property="deviceId"    column="device_id"    />
+        <result property="type"    column="type"    />
+        <result property="connectType"    column="connect_type"    />
+        <result property="updateTime"    column="update_time"    />
+    </resultMap>
+
+    <sql id="selectGbConfigVo">
+        select * from gb_config
+    </sql>
+
+    <select id="selectGbConfigList" parameterType="com.ruoyi.gb.domain.GbConfig" resultMap="GbConfigResult">
+        <include refid="selectGbConfigVo"/>
+        <where>  
+            <if test="name != null  and name != ''"> and name like concat('%', #{name}, '%')</if>
+            <if test="state != null  and state != ''"> and state = #{state}</if>
+            <if test="connectType != null  and connectType != ''"> and connect_type = #{connectType}</if>
+            <if test="type != null  and  type != ''"> and type = #{type}</if>
+            <if test="deviceId != null  and deviceId != ''"> and device_id like concat('%', #{deviceId}, '%')</if>
+        </where>
+    </select>
+    
+    <select id="selectGbConfigById" parameterType="String" resultMap="GbConfigResult">
+        <include refid="selectGbConfigVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertGbConfig" parameterType="com.ruoyi.gb.domain.GbConfig">
+        insert into gb_config
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="name != null">name,</if>
+            <if test="createTime != null">create_time,</if>
+            <if test="state != null">state,</if>
+            <if test="deviceId != null">device_id,</if>
+            <if test="type != null">type,</if>
+            <if test="connectType != null">connect_type,</if>
+            <if test="updateTime != null">update_time,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id},</if>
+            <if test="name != null">#{name},</if>
+            <if test="createTime != null">#{createTime},</if>
+            <if test="state != null">#{state},</if>
+            <if test="deviceId != null">#{deviceId},</if>
+            <if test="type != null">#{type},</if>
+            <if test="connectType != null">#{connectType},</if>
+            <if test="updateTime != null">#{updateTime},</if>
+         </trim>
+    </insert>
+
+    <update id="updateGbConfig" parameterType="com.ruoyi.gb.domain.GbConfig">
+        update gb_config
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="name != null">name = #{name},</if>
+            <if test="createTime != null">create_time = #{createTime},</if>
+            <if test="state != null">state = #{state},</if>
+            <if test="deviceId != null">device_id = #{deviceId},</if>
+            <if test="type != null">type = #{type},</if>
+            <if test="connectType != null">connect_type = #{connectType},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteGbConfigById" parameterType="String">
+        delete from gb_config where id = #{id}
+    </delete>
+
+    <delete id="deleteGbConfigByIds" parameterType="String">
+        delete from gb_config where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    
+</mapper>

@@ -1,0 +1,1110 @@
+00:31:57.556 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 4488 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+00:31:57.561 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+00:32:00.016 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+00:32:00.026 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+00:32:00.027 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+00:32:00.108 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+00:32:03.107 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+00:32:04.482 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+00:32:05.577 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+00:32:05.595 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+00:32:05.640 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+00:32:05.772 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+00:32:05.809 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 8.574 seconds (JVM running for 9.251)
+00:32:14.053 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:32:14.403 [http-nio-8090-exec-1] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:e6307203-6cdf-4f38-8ae4-87908599b355
+00:32:14.412 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+00:32:14.509 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:32:14.510 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:33:14.510 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:33:14.510 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:34:14.514 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:34:14.515 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:35:14.516 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:35:14.516 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:36:14.524 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:36:14.534 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:37:14.539 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:37:14.539 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:38:14.542 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:38:14.542 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:39:14.545 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:39:14.545 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:40:14.547 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:40:14.548 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:41:14.551 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:41:14.551 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:42:14.551 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:42:14.552 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:43:14.566 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:43:14.566 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:44:14.570 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:44:14.571 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:45:14.576 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:45:14.576 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:46:14.580 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:46:14.580 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+00:47:14.584 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+00:47:14.584 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+01:45:54.466 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 5608 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+01:45:54.471 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+01:45:58.191 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+01:45:58.206 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+01:45:58.207 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+01:45:58.341 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+01:46:51.279 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 5657 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+01:46:51.282 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+01:46:53.503 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+01:46:53.513 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+01:46:53.513 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+01:46:53.591 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+01:47:06.476 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+01:47:08.076 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+01:47:09.148 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+01:47:09.166 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+01:47:09.208 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+01:47:09.329 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+01:47:09.367 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 18.47 seconds (JVM running for 19.276)
+01:47:16.756 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:47:17.179 [http-nio-8090-exec-1] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:a3308e01-6917-4f99-858e-875b0823267f
+01:47:17.183 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+01:47:17.282 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+01:47:17.282 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+01:48:17.285 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+01:48:17.287 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+01:49:17.272 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+01:49:17.273 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+01:50:17.275 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+01:50:17.277 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+01:51:17.282 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+01:51:17.283 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+01:52:17.304 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+01:52:17.306 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+07:15:46.618 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+07:15:46.619 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteCache,98] - have delete key :login_tokens:a3308e01-6917-4f99-858e-875b0823267f
+07:15:46.620 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :1
+08:29:12.326 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+08:29:12.327 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:00:07.139 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:00:07.140 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:01:07.145 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:01:07.147 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:02:07.147 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:02:07.148 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:03:07.152 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:03:07.153 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:04:07.159 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:04:07.164 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:05:07.169 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:05:07.169 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:06:07.173 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:06:07.173 [Thread-49] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:07:02.901 [Thread-44] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+09:07:02.904 [Thread-44] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+09:07:02.909 [Thread-44] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+09:48:51.923 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 9797 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+09:48:51.927 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+09:48:54.570 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+09:48:54.581 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+09:48:54.581 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+09:48:54.671 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+09:48:57.526 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+09:48:58.997 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+09:49:00.143 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+09:49:00.157 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+09:49:00.197 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+09:49:00.332 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+09:49:00.375 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 8.813 seconds (JVM running for 9.537)
+09:49:07.171 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:49:07.275 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:49:07.276 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:49:09.910 [http-nio-8090-exec-3] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:517ee249-1b18-4025-893b-8a362992618c
+09:49:09.920 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+09:50:07.279 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:50:07.280 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:51:07.283 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:51:07.283 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:52:07.288 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:52:07.289 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:53:07.293 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:53:07.294 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:54:07.358 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:54:07.359 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:55:07.362 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:55:07.363 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:56:07.365 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:56:07.365 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:57:07.368 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:57:07.369 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:57:18.651 [http-nio-8090-exec-25] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:d665a56e-ccf0-4c90-80e2-5efdfba342b7
+09:57:18.662 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+09:58:07.372 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:58:07.373 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:59:07.375 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+09:59:07.377 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+09:59:37.113 [http-nio-8090-exec-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:517ee249-1b18-4025-893b-8a362992618c
+10:00:07.380 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:00:07.381 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:01:07.386 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:01:07.387 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:02:07.390 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:02:07.391 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:03:07.394 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:03:07.395 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:04:07.398 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:04:07.398 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:05:07.401 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:05:07.402 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:06:07.407 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:06:07.408 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:07:07.410 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:07:07.411 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:07:10.434 [http-nio-8090-exec-12] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:84bcfe39-b0e9-49cf-ab0c-786f62dbf95a
+10:07:10.444 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+10:08:07.415 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:08:07.417 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:09:07.417 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:09:07.418 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:10:07.422 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:10:07.423 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:11:07.429 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:11:07.430 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:12:07.414 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:12:07.415 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:13:07.415 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:13:07.415 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:14:07.419 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:14:07.420 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:15:07.421 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:15:07.422 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:16:07.427 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:16:07.428 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:17:07.433 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:17:07.434 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:18:07.436 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:18:07.437 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:19:07.442 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:19:07.443 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:20:01.593 [http-nio-8090-exec-21] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:84bcfe39-b0e9-49cf-ab0c-786f62dbf95a
+10:20:07.448 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:20:07.448 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:21:07.452 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:21:07.458 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:22:07.464 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:22:07.464 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:23:07.467 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:23:07.468 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:23:17.669 [http-nio-8090-exec-18] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:d665a56e-ccf0-4c90-80e2-5efdfba342b7
+10:24:07.472 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:24:07.473 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:25:07.476 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:25:07.477 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:26:07.481 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:26:07.482 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:27:07.487 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:27:07.488 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:28:07.494 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:28:07.494 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:29:07.496 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:29:07.497 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:30:07.499 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:30:07.500 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteCache,98] - have delete key :login_tokens:517ee249-1b18-4025-893b-8a362992618c
+10:30:07.500 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :1
+10:31:07.504 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:31:07.505 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:32:07.507 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:32:07.508 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:33:07.514 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:33:07.515 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:34:07.519 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:34:07.519 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:34:37.095 [http-nio-8090-exec-8] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:84bcfe39-b0e9-49cf-ab0c-786f62dbf95a
+10:35:07.519 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:35:07.520 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:36:07.526 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:36:07.527 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:36:14.996 [Thread-25] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+10:36:14.998 [Thread-25] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+10:36:15.002 [Thread-25] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+10:36:19.032 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 14454 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+10:36:19.034 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+10:36:21.219 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+10:36:21.227 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+10:36:21.228 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+10:36:21.295 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+10:36:23.943 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+10:36:25.244 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+10:36:26.191 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+10:36:26.204 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+10:36:26.244 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+10:36:26.358 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+10:36:26.396 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 7.696 seconds (JVM running for 8.486)
+10:36:38.376 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:36:38.472 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:36:38.472 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:36:40.730 [http-nio-8090-exec-3] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:a112ff23-df8c-4a93-9284-effddcb79fdc
+10:36:40.740 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+10:37:38.477 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:37:38.478 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:38:38.479 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:38:38.480 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:39:38.484 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:39:38.485 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:40:19.271 [http-nio-8090-exec-13] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:5a803c39-ca2a-4406-bfdb-af80f433f114
+10:40:19.282 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+10:40:38.490 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:40:38.491 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:41:38.494 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:41:38.496 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:42:38.534 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:42:38.535 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:43:30.737 [http-nio-8090-exec-23] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:aacb8a22-1026-4170-8104-e93ca7e5877b
+10:43:30.748 [schedule-pool-3] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+10:43:38.540 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:43:38.541 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:44:38.546 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:44:38.547 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:45:38.548 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:45:38.550 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:46:38.553 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:46:38.553 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:47:38.557 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:47:38.558 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:48:38.563 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:48:38.564 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:48:56.375 [http-nio-8090-exec-8] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:a112ff23-df8c-4a93-9284-effddcb79fdc
+10:49:38.568 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:49:38.569 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:50:38.572 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:50:38.573 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:51:38.576 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:51:38.577 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:52:38.583 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:52:38.584 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:53:38.589 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:53:38.590 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:54:38.593 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:54:38.595 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:55:38.600 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:55:38.601 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:56:38.603 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:56:38.604 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:57:38.613 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:57:38.613 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:58:38.619 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:58:38.619 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+10:59:30.168 [http-nio-8090-exec-14] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:a112ff23-df8c-4a93-9284-effddcb79fdc
+10:59:38.622 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+10:59:38.622 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:00:38.624 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:00:38.624 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:01:38.629 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:01:38.630 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:02:38.633 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:02:38.635 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:03:38.638 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:03:38.639 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:04:38.644 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:04:38.644 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:05:38.645 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:05:38.645 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:06:38.650 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:06:38.651 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:07:38.657 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:07:38.658 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:08:38.661 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:08:38.662 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:09:31.724 [http-nio-8090-exec-1] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:a112ff23-df8c-4a93-9284-effddcb79fdc
+11:09:38.666 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:09:38.666 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:10:38.670 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:10:38.671 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteCache,98] - have delete key :login_tokens:5a803c39-ca2a-4406-bfdb-af80f433f114
+11:10:38.671 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :1
+11:11:38.676 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:11:38.677 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:12:38.681 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:12:38.682 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:13:38.683 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:13:38.684 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteCache,98] - have delete key :login_tokens:aacb8a22-1026-4170-8104-e93ca7e5877b
+11:13:38.684 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :1
+11:14:38.689 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:14:38.690 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:15:38.694 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:15:38.695 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:16:38.700 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:16:38.702 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:17:38.707 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:17:38.708 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:18:38.712 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:18:38.713 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:19:32.671 [http-nio-8090-exec-27] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:a112ff23-df8c-4a93-9284-effddcb79fdc
+11:19:38.684 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:19:38.685 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:20:38.683 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:20:38.684 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:21:38.689 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:21:38.690 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:22:38.695 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:22:38.696 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:23:38.702 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:23:38.703 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:24:38.708 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:24:38.709 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:25:38.710 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:25:38.711 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:26:38.713 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:26:38.714 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:27:38.720 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:27:38.721 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:28:38.726 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:28:38.726 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:29:38.726 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:29:38.727 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:30:14.284 [http-nio-8090-exec-15] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:a112ff23-df8c-4a93-9284-effddcb79fdc
+11:30:38.732 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:30:38.733 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:31:38.733 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:31:38.734 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:32:38.737 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:32:38.737 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:33:38.742 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:33:38.742 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:34:38.743 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:34:38.744 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:35:38.748 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:35:38.749 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:36:38.753 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:36:38.754 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:37:38.755 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:37:38.755 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:38:38.760 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:38:38.760 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:39:38.760 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:39:38.761 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:40:38.765 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:40:38.765 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:41:38.769 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:41:38.770 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:42:38.776 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:42:38.777 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:43:38.779 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:43:38.779 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:44:38.806 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:44:38.807 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:45:38.826 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:45:38.826 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:46:38.829 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:46:38.830 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:46:49.800 [http-nio-8090-exec-27] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:a112ff23-df8c-4a93-9284-effddcb79fdc
+11:47:38.835 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:47:38.836 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:48:38.839 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:48:38.840 [Thread-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:49:21.595 [Thread-24] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:49:21.598 [Thread-24] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+11:49:21.605 [Thread-24] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+11:49:25.284 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 22569 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+11:49:25.287 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+11:49:27.750 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+11:49:27.759 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:49:27.760 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11:49:27.836 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:49:30.629 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:49:32.021 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:49:32.950 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:49:32.961 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:49:32.999 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:49:33.111 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+11:49:33.155 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 8.152 seconds (JVM running for 8.81)
+11:50:25.036 [Thread-24] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:50:25.040 [Thread-24] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+11:50:25.048 [Thread-24] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+11:50:43.020 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 22639 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+11:50:43.023 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+11:50:45.102 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+11:50:45.111 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:50:45.112 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11:50:45.189 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:50:48.964 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:50:50.186 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:50:51.100 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:50:51.113 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:50:51.159 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:50:51.287 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+11:50:51.324 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 8.601 seconds (JVM running for 9.566)
+11:51:11.521 [Thread-26] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:51:11.525 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+11:51:11.531 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+11:52:50.784 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 23221 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+11:52:50.790 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+11:52:53.811 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+11:52:53.824 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:52:53.824 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11:52:53.925 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:52:56.844 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:52:58.208 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:52:59.230 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:52:59.247 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:52:59.288 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:52:59.412 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+11:52:59.450 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 9.16 seconds (JVM running for 9.99)
+11:56:04.862 [Thread-26] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:56:04.869 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+11:56:04.882 [Thread-26] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+11:56:08.535 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 23935 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+11:56:08.538 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+11:56:10.854 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+11:56:10.864 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:56:10.864 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11:56:10.940 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:56:12.535 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:56:12.564 [Druid-ConnectionPool-Create-146123579] INFO  c.a.d.p.DruidAbstractDataSource - [setFailContinuous,1799] - {dataSource-1} failContinuous is true
+11:56:13.345 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:56:14.437 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:56:14.449 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:56:14.488 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:56:14.748 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+11:56:14.788 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 6.551 seconds (JVM running for 7.162)
+11:57:20.780 [Thread-21] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:57:20.783 [Thread-21] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+11:57:20.784 [Thread-21] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+11:57:24.364 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 23970 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+11:57:24.367 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+11:57:26.628 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+11:57:26.640 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:57:26.640 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11:57:26.726 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:57:28.274 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:57:28.302 [Druid-ConnectionPool-Create-968333404] INFO  c.a.d.p.DruidAbstractDataSource - [setFailContinuous,1799] - {dataSource-1} failContinuous is true
+11:57:29.005 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:57:30.045 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:57:30.056 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:57:30.092 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:57:30.194 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+11:57:30.229 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 6.167 seconds (JVM running for 6.797)
+11:57:49.474 [Thread-21] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:57:49.477 [Thread-21] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+11:57:49.478 [Thread-21] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+11:57:53.014 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 23985 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+11:57:53.016 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+11:57:55.076 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+11:57:55.085 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:57:55.085 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11:57:55.159 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:57:57.038 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:57:57.952 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:57:58.990 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:57:59.002 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:57:59.040 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:57:59.147 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+11:57:59.182 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 6.458 seconds (JVM running for 7.059)
+11:58:19.542 [Thread-21] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+11:58:19.547 [Thread-21] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+11:58:19.556 [Thread-21] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+11:58:23.421 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 24011 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+11:58:23.424 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+11:58:26.126 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+11:58:26.137 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+11:58:26.138 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+11:58:26.242 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+11:58:28.948 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+11:58:30.255 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+11:58:31.209 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+11:58:31.222 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+11:58:31.262 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+11:58:31.381 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+11:58:31.419 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 8.373 seconds (JVM running for 9.014)
+11:59:23.908 [http-nio-8090-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:59:24.150 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+11:59:24.150 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+11:59:24.495 [http-nio-8090-exec-2] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:11bb62ea-2751-49b2-b46f-61d54f10f9e9
+11:59:24.503 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+11:59:39.811 [http-nio-8090-exec-3] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:ac19a484-b097-473b-8463-4b2c415c8ddc
+11:59:39.822 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+12:00:24.156 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:00:24.157 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:01:24.159 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:01:24.161 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:02:24.165 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:02:24.167 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:03:24.173 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:03:24.176 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:04:24.177 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:04:24.178 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:05:24.183 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:05:24.185 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:06:24.189 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:06:24.191 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:07:24.193 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:07:24.194 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:08:24.200 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:08:24.202 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:09:24.208 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:09:24.209 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:10:24.210 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:10:24.210 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:11:24.212 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:11:24.213 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:12:24.216 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:12:24.217 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:13:24.219 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:13:24.220 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:14:24.226 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:14:24.227 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:14:51.652 [http-nio-8090-exec-25] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:ac19a484-b097-473b-8463-4b2c415c8ddc
+12:15:24.262 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:15:24.263 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:16:24.270 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:16:24.271 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:17:24.276 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:17:24.278 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:18:24.283 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:18:24.284 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:19:24.286 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:19:24.287 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:20:24.290 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:20:24.291 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:21:24.292 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:21:24.293 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:22:24.295 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:22:24.296 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:23:24.301 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:23:24.302 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:24:24.306 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:24:24.307 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:25:24.310 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:25:24.311 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:26:24.313 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:26:24.314 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:27:24.317 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:27:24.317 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:28:24.321 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:28:24.321 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:29:24.329 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:29:24.330 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:30:24.335 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:30:24.336 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteCache,98] - have delete key :login_tokens:11bb62ea-2751-49b2-b46f-61d54f10f9e9
+12:30:24.337 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :1
+12:31:24.346 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:31:24.346 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:37:04.542 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:37:04.543 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:41:40.552 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:41:40.554 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:42:26.976 [http-nio-8090-exec-7] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:ac19a484-b097-473b-8463-4b2c415c8ddc
+12:42:40.550 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:42:40.551 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:43:40.555 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:43:40.556 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:44:40.562 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:44:40.563 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:45:40.569 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:45:40.571 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:46:40.572 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:46:40.573 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:47:40.578 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:47:40.578 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:48:40.584 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:48:40.586 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:49:40.588 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:49:40.589 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:50:40.595 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:50:40.596 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:51:40.601 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:51:40.603 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:52:40.608 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:52:40.609 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:52:45.081 [http-nio-8090-exec-18] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:ac19a484-b097-473b-8463-4b2c415c8ddc
+12:53:40.614 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:53:40.615 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:54:40.618 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:54:40.618 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:55:40.623 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:55:40.624 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:56:40.628 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:56:40.630 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:57:40.631 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:57:40.632 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:58:40.638 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:58:40.639 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+12:59:40.644 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+12:59:40.646 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:00:40.647 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:00:40.648 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:01:40.653 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:01:40.653 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:02:40.659 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:02:40.659 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:03:40.664 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:03:40.665 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:04:40.669 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:04:40.671 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:04:44.227 [http-nio-8090-exec-5] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:ac19a484-b097-473b-8463-4b2c415c8ddc
+13:05:40.677 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:05:40.677 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:06:40.679 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:06:40.679 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:07:40.685 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:07:40.685 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:08:40.683 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:08:40.685 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:09:40.690 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:09:40.691 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:10:40.694 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:10:40.695 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:11:40.696 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:11:40.696 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:12:40.701 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:12:40.716 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:13:40.720 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:13:40.721 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:14:40.726 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:14:40.727 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:15:40.730 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:15:40.731 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:16:05.043 [http-nio-8090-exec-24] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:ac19a484-b097-473b-8463-4b2c415c8ddc
+13:16:40.738 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:16:40.741 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:17:40.745 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:17:40.746 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:18:40.751 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:18:40.752 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:19:40.755 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:19:40.755 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:20:40.756 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:20:40.757 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:21:40.759 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:21:40.759 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:22:40.766 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:22:40.767 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:23:40.777 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:23:40.778 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:24:40.783 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:24:40.785 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:25:40.792 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:25:40.793 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:26:40.804 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:26:40.805 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:32:21.200 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:32:21.201 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:38:01.530 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:38:01.531 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:43:41.994 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:43:41.996 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:46:50.337 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:46:50.343 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteCache,98] - have delete key :login_tokens:ac19a484-b097-473b-8463-4b2c415c8ddc
+13:46:50.422 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :1
+13:52:33.801 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:52:33.801 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:56:35.303 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:56:35.304 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:57:37.111 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:57:37.112 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:58:37.116 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:58:37.117 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+13:59:37.118 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+13:59:37.118 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:00:37.124 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:00:37.127 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:01:25.581 [http-nio-8090-exec-29] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:ebb0e561-82ec-4e0e-9975-6c985674b18d
+14:01:25.592 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+14:01:37.132 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:01:37.133 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:02:37.135 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:02:37.135 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:03:37.139 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:03:37.139 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:04:37.143 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:04:37.143 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:05:37.148 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:05:37.151 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:06:37.153 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:06:37.154 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:07:37.155 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:07:37.156 [Thread-30] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:07:42.402 [Thread-25] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+14:07:42.405 [Thread-25] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+14:07:42.412 [Thread-25] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+14:07:51.831 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 34277 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+14:07:51.833 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+14:07:54.105 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+14:07:54.115 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:07:54.115 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+14:07:54.194 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:07:56.164 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+14:07:57.096 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+14:07:58.119 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+14:07:58.131 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+14:07:58.165 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+14:07:58.268 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+14:07:58.302 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 6.783 seconds (JVM running for 7.432)
+14:08:04.239 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:08:04.430 [Thread-27] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:08:04.430 [Thread-27] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:08:07.848 [http-nio-8090-exec-3] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:b2750ee8-efa4-4607-94d1-dbe7707a5925
+14:08:07.856 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+14:09:04.435 [Thread-27] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:09:04.436 [Thread-27] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:10:04.442 [Thread-27] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:10:04.442 [Thread-27] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:11:04.444 [Thread-27] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:11:04.444 [Thread-27] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:11:28.206 [Thread-22] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+14:11:28.209 [Thread-22] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-1} closing ...
+14:11:28.216 [Thread-22] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-1} closed
+14:11:31.778 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on Macbook-Pro.local with PID 34380 (/Users/mac/Downloads/文档/实习/recoding/后端/live/ruoyi-admin/target/classes started by mac in /Users/mac/Downloads/文档/实习/recoding/后端/live)
+14:11:31.780 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+14:11:33.946 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8090"]
+14:11:33.954 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:11:33.955 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+14:11:34.024 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:11:35.948 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-1} inited
+14:11:37.013 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+14:11:37.973 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+14:11:37.982 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+14:11:38.016 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+14:11:38.130 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8090"]
+14:11:38.164 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 6.681 seconds (JVM running for 7.254)
+14:11:43.346 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:11:43.452 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:11:43.452 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:11:46.368 [http-nio-8090-exec-3] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:fd834576-4d89-4e63-b60c-10c549b602fe
+14:11:46.377 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][Success][登录成功]
+14:12:43.457 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:12:43.459 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:13:43.464 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:13:43.465 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:14:43.470 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:14:43.472 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:15:43.477 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:15:43.478 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:16:43.483 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:16:43.484 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:17:43.488 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:17:43.489 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:18:43.492 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:18:43.492 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:19:43.497 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:19:43.498 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:20:43.483 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:20:43.485 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:21:43.486 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:21:43.486 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:22:43.491 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:22:43.492 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:23:43.494 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:23:43.495 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:24:43.500 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:24:43.501 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:25:43.502 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:25:43.504 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:26:43.512 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:26:43.513 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:27:43.515 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:27:43.516 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:28:43.521 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:28:43.522 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:29:43.527 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:29:43.529 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:30:01.328 [http-nio-8090-exec-15] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [setCache,62] - have set key :login_tokens:fd834576-4d89-4e63-b60c-10c549b602fe
+14:30:43.530 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:30:43.531 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:31:43.535 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:31:43.536 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:32:43.542 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:32:43.543 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:33:43.546 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:33:43.547 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:34:43.553 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:34:43.553 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:35:43.558 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:35:43.559 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:36:43.563 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:36:43.564 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:37:43.568 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:37:43.569 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:38:43.574 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:38:43.575 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:39:43.576 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:39:43.577 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:40:43.577 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:40:43.577 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:41:43.582 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:41:43.587 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:42:43.592 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:42:43.593 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:43:43.598 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:43:43.599 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:44:43.604 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:44:43.604 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:45:43.613 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:45:43.613 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:46:43.618 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:46:43.618 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:47:43.623 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:47:43.624 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:48:43.625 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:48:43.627 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:49:43.631 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:49:43.632 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:50:43.638 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:50:43.638 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:51:43.644 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:51:43.644 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:52:43.649 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:52:43.650 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:53:43.654 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:53:43.655 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:54:43.661 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:54:43.661 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:55:43.664 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:55:43.664 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:56:43.668 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:56:43.668 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:57:43.672 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:57:43.673 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:58:43.675 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:58:43.676 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+14:59:43.682 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+14:59:43.682 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:00:43.688 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:00:43.689 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteCache,98] - have delete key :login_tokens:fd834576-4d89-4e63-b60c-10c549b602fe
+15:00:43.689 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :1
+15:01:43.694 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:01:43.695 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:02:43.696 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:02:43.697 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:03:43.700 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:03:43.702 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:04:43.705 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:04:43.705 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:05:43.707 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:05:43.707 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:06:43.713 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:06:43.713 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:07:43.719 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:07:43.719 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:08:43.726 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:08:43.726 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:09:43.732 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:09:43.733 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:10:43.739 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:10:43.739 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:11:43.741 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:11:43.742 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:12:43.748 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:12:43.749 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:13:43.752 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:13:43.753 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:14:43.759 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:14:43.760 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:15:43.764 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:15:43.765 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:16:43.769 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:16:43.770 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:17:43.774 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:17:43.774 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:18:43.778 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:18:43.778 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:19:43.781 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:19:43.781 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:20:43.784 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:20:43.784 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:21:43.788 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:21:43.788 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:22:43.792 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:22:43.793 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:23:43.797 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:23:43.798 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:24:43.803 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:24:43.804 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:25:43.805 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:25:43.806 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:26:43.810 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:26:43.811 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:27:43.813 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:27:43.815 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:28:43.821 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:28:43.822 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:29:43.826 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:29:43.826 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:30:43.831 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:30:43.831 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:31:43.834 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:31:43.835 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:32:43.838 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:32:43.838 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:33:43.843 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:33:43.844 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:34:43.846 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:34:43.847 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:35:43.852 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:35:43.854 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:36:43.859 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:36:43.861 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:37:43.865 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:37:43.866 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:38:43.872 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:38:43.875 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:39:43.881 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:39:43.883 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:40:43.888 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:40:43.889 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:41:43.891 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:41:43.892 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:42:43.894 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:42:43.896 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:43:43.899 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:43:43.899 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:44:43.904 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:44:43.905 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:45:43.906 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:45:43.907 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:46:43.918 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:46:43.919 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:47:43.925 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:47:43.926 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:48:43.930 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:48:43.931 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:49:43.937 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:49:43.937 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:50:43.940 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:50:43.942 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:51:43.943 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:51:43.944 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:52:43.948 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:52:43.949 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:53:43.953 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:53:43.954 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:54:43.957 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:54:43.958 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:55:43.964 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:55:43.964 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:56:43.969 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:56:43.970 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:57:43.974 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:57:43.975 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:58:43.978 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:58:43.979 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+15:59:43.985 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+15:59:43.988 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:00:43.990 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:00:43.991 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:01:43.996 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:01:43.996 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:02:44.000 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:02:44.000 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:03:44.004 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:03:44.004 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:04:44.006 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:04:44.006 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:05:44.009 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:05:44.009 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:06:43.964 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:06:43.965 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:07:43.964 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:07:43.964 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:08:43.970 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:08:43.970 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:09:43.974 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:09:43.975 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:10:43.979 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:10:43.980 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:11:43.986 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:11:43.987 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:12:43.991 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:12:43.992 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:13:43.994 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:13:43.995 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:14:44.000 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:14:44.001 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:15:44.006 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:15:44.007 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:16:44.012 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:16:44.012 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:17:44.017 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:17:44.017 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:18:44.022 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:18:44.022 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:19:44.027 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:19:44.027 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:20:44.031 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:20:44.031 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:21:44.035 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:21:44.035 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:22:44.037 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:22:44.038 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:23:44.043 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:23:44.044 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:24:44.046 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:24:44.046 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:25:44.065 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:25:44.065 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:26:44.075 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:26:44.075 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:27:44.080 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:27:44.081 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:28:44.086 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:28:44.088 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:29:44.092 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:29:44.092 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:30:44.095 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:30:44.095 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:31:44.099 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:31:44.100 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:32:44.103 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:32:44.104 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:33:44.108 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:33:44.110 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:34:44.112 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:34:44.113 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:35:44.117 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:35:44.117 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:36:44.122 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:36:44.123 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:37:44.128 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:37:44.128 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:38:44.133 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:38:44.134 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:39:44.137 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:39:44.138 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:40:44.141 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:40:44.142 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:41:44.145 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:41:44.145 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:42:44.149 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:42:44.150 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:43:44.152 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:43:44.153 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:44:44.158 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:44:44.158 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:45:44.164 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:45:44.164 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:46:44.170 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:46:44.171 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:47:44.175 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:47:44.175 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:48:44.177 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:48:44.178 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:49:44.200 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:49:44.201 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:50:44.215 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:50:44.216 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:51:44.221 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:51:44.221 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:52:44.225 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:52:44.226 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:53:44.228 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:53:44.229 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:54:44.234 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:54:44.235 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:55:44.239 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:55:44.239 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:56:44.245 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:56:44.245 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:57:44.249 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:57:44.250 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:58:44.255 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:58:44.256 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0
+16:59:44.262 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,139] - delete time out run!
+16:59:44.264 [Thread-26] INFO  c.r.c.u.ConcurrentHashMapCacheUtils - [deleteTimeOut,149] - delete cache count is :0

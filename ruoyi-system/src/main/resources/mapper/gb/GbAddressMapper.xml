@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.gb.mapper.GbAddressMapper">
+    
+    <resultMap type="GbAddress" id="GbAddressResult">
+        <result property="id"    column="id"    />
+        <result property="name"    column="name"    />
+        <result property="pid"    column="pid"    />
+        <result property="type"    column="type"    />
+        <result property="domainId"    column="domain_id"    />
+    </resultMap>
+
+    <sql id="selectGbAddressVo">
+        select id, name, pid, type,domain_id from gb_address
+    </sql>
+
+    <select id="selectGbAddressList" parameterType="GbAddress" resultMap="GbAddressResult">
+        <include refid="selectGbAddressVo"/>
+        <where>  
+            <if test="name != null  and name != ''"> and name like concat('%', #{name}, '%')</if>
+            <if test="pid != null  and pid != ''"> and pid = #{pid}</if>
+            <if test="type != null  and type != ''"> and type = #{type}</if>
+            <if test="domainId != null  and domainId != ''"> and domain_id = #{domainId}</if>
+        </where>
+    </select>
+    
+    <select id="selectGbAddressById" parameterType="String" resultMap="GbAddressResult">
+        <include refid="selectGbAddressVo"/>
+        where id = #{id}
+    </select>
+        
+    <insert id="insertGbAddress" parameterType="GbAddress">
+        insert into gb_address
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="name != null">name,</if>
+            <if test="pid != null">pid,</if>
+            <if test="type != null">type,</if>
+            <if test="domainId != null">domain_id,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id},</if>
+            <if test="name != null">#{name},</if>
+            <if test="pid != null">#{pid},</if>
+            <if test="type != null">#{type},</if>
+            <if test="domainId != null">#{domainId},</if>
+         </trim>
+    </insert>
+
+    <update id="updateGbAddress" parameterType="GbAddress">
+        update gb_address
+        <trim prefix="SET" suffixOverrides=",">
+     		pid = #{pid},
+            <if test="name != null">name = #{name},</if>
+            <if test="type != null">type = #{type},</if>
+            <if test="domainId != null">domain_id = #{domainId},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteGbAddressById" parameterType="String">
+        delete from gb_address where id = #{id}
+    </delete>
+
+    <delete id="deleteGbAddressByIds" parameterType="String">
+        delete from gb_address where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+    
+</mapper>
