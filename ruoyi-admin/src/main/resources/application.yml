@@ -41,7 +41,7 @@ logging:
 # Spring配置
 spring:
   jmx:
-    default-domain: vig
+    default-domain: rec
   # 资源信息
   messages:
     # 国际化资源文件路径
@@ -170,3 +170,5 @@ sharePage: 127.0.0.1:3001/#/videoCloud
 
 #lincense服务器存储地址
 license_address: /home/ck/data/config
+file:
+  base-url:

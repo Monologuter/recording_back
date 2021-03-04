@@ -13,7 +13,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ruoyi" target="1.8" />
+      <module name="recording" target="1.8" />
       <module name="ruoyi-common" target="1.8" />
       <module name="ruoyi-framework" target="1.8" />
       <module name="ruoyi-system" target="1.8" />
