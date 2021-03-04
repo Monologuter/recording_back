@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="vig:war">
+    <output-path>$PROJECT_DIR$/ruoyi-admin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>vig</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="recording.war">
+      <element id="artifact" artifact-name="vig:war exploded" />
+    </root>
+  </artifact>
+</component>
