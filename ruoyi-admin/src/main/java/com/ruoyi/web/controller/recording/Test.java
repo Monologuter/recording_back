@@ -1,7 +1,9 @@
 package com.ruoyi.web.controller.recording;
 
 import com.ruoyi.common.utils.DateUtils;
+import com.ruoyi.common.utils.StringUtils;
 
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -15,17 +17,13 @@ import java.util.Date;
  * @Description:
  */
 public class Test {
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) throws ParseException, IOException {
+        String[] rmPath = new String[]{"find ", "/home/ck/data/recordings/conference ", "-mtime  0   ", "-name ", "*.zip ", "-exec rm -rf {} ", "\\"};
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < rmPath.length; i++) {
+            sb.append(rmPath[i]);
+        }
 
-
-        SimpleDateFormat sdf=new SimpleDateFormat("yyyyMMdd");
-        Date date=new Date();
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(date);
-        calendar.add(Calendar.DAY_OF_MONTH, -1);
-        date = calendar.getTime();
-        System.out.println(sdf.format(date));
-        String time = DateUtils.dateTimeNow();
-        System.out.println("time = " + time);
+        System.out.println(sb.toString());
     }
 }

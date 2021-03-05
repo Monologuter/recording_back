@@ -1,43 +1,23 @@
 package com.ruoyi.web.controller.recording;
 
-import cn.hutool.core.io.unit.DataUnit;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.ruoyi.common.annotation.Log;
 import com.ruoyi.common.core.controller.BaseController;
 import com.ruoyi.common.core.domain.AjaxResult;
 import com.ruoyi.common.core.page.TableDataInfo;
 import com.ruoyi.common.enums.BusinessType;
 import com.ruoyi.common.utils.DateUtils;
+import com.ruoyi.common.utils.StringUtils;
 import com.ruoyi.common.utils.poi.ExcelUtil;
 import com.ruoyi.recording.domain.CtiIntercomRecord;
 import com.ruoyi.recording.service.ICtIntercomRecordService;
-import io.swagger.annotations.ApiOperation;
-import org.apache.commons.compress.utils.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.util.FileCopyUtils;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.HttpServerErrorException;
 
-import javax.servlet.ServletOutputStream;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.*;
-import java.net.URL;
-import java.net.URLConnection;
-import java.net.URLEncoder;
-import java.nio.charset.Charset;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipOutputStream;
+import java.util.*;
 
 @RestController
 @RequestMapping("/recording/intercom")
@@ -118,17 +98,26 @@ public class CtiIntercomRecordController extends BaseController {
      */
     @RequestMapping(value = "/downloadRecord",method = RequestMethod.POST)
     public AjaxResult downloadSelected(@RequestBody JSONObject jsonObject) throws IOException {
+
+
         InputStream is = null;
         String time=DateUtils.dateTimeNow();
 
-        String path = "/home/ck/data/recordings/conference/intercomTemp_"+time;
+        String[] rmPath = new String[]{"find ", "/home/ck/data/recordings/conference ", "-mtime  +1   ", "-name ", "*.zip ", "-exec rm -rf {} ", "\\" ," ;"};
+        StringBuffer sbRmPath = new StringBuffer();
+        for (int i = 0; i < rmPath.length; i++) {
+            sbRmPath.append(rmPath[i]);
+        }
+
+        String path = "/home/ck/data/recordings/conference/Temp_"+time;
         //        保存压缩包的文件目录
         String path2 = "/home/ck/data/recordings/conference/intercom_"+time+".zip ";
+
         String return_url="";
 
-        try{   List<String> processList = new ArrayList<String>();
-        //删除前一天的记录
-        Runtime.getRuntime().exec("rm -rf "+path);
+        try{
+        System.out.println(sbRmPath.toString());
+        Runtime.getRuntime().exec(sbRmPath.toString());
         JSONArray jsonArray = jsonObject.getJSONArray("urls");
         //将其转成一个地址数组
         System.out.println("jsonArray = " + jsonArray);

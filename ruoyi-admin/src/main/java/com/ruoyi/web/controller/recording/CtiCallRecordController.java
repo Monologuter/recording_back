@@ -119,17 +119,25 @@ public class CtiCallRecordController extends BaseController
      */
     @RequestMapping(value = "/downloadRecord",method = RequestMethod.POST)
     public AjaxResult downloadSelected(@RequestBody JSONObject jsonObject) throws IOException {
-        InputStream is = null;
-        String time= DateUtils.dateTimeNow();
 
-        String path = "/home/ck/data/recordings/conference/recordTemp_"+time;
+        InputStream is = null;
+        String time=DateUtils.dateTimeNow();
+
+        String[] rmPath = new String[]{"find ", "/home/ck/data/recordings/conference ", "-mtime  +1   ", "-name ", "*.zip ", "-exec rm -rf {} ", "\\" ," ;"};
+        StringBuffer sbRmPath = new StringBuffer();
+        for (int i = 0; i < rmPath.length; i++) {
+            sbRmPath.append(rmPath[i]);
+        }
+
+        String path = "/home/ck/data/recordings/conference/Temp_"+time;
         //        保存压缩包的文件目录
         String path2 = "/home/ck/data/recordings/conference/record_"+time+".zip ";
+
         String return_url="";
 
-        try{   List<String> processList = new ArrayList<String>();
-            //删除前一天的记录
-            Runtime.getRuntime().exec("rm -rf "+path);
+        try{
+            System.out.println(sbRmPath.toString());
+            Runtime.getRuntime().exec(sbRmPath.toString());
             JSONArray jsonArray = jsonObject.getJSONArray("recordingaddress");
             //将其转成一个地址数组
             System.out.println("jsonArray = " + jsonArray);
@@ -143,6 +151,7 @@ public class CtiCallRecordController extends BaseController
                 String cmd= "cp "+ path1+" "+path;
                 //执行copy命令
                 Runtime.getRuntime().exec(cmd);
+
             }
 
             String cmd1 = "zip -q -r " +path2 + path;

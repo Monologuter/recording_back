@@ -750,3 +750,103 @@
 17:27:49.534 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
 17:27:49.549 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
 17:27:49.582 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 4.283 seconds (JVM running for 112.0)
+18:09:27.474 [Thread-28] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+18:09:27.479 [Thread-28] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-2} closing ...
+18:09:27.480 [Thread-28] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-2} closed
+18:14:20.123 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on chenyadeMacBook-Pro.local with PID 4570 (/Users/macbookpro/soft/实习/recording_back/ruoyi-admin/target/classes started by macbookpro in /Users/macbookpro/soft/实习/recording_back)
+18:14:20.124 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+18:14:20.957 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:14:20.957 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+18:14:20.965 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:14:21.825 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-3} inited
+18:14:22.531 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:14:23.077 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+18:14:23.078 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+18:14:23.090 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:14:23.117 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 3.039 seconds (JVM running for 2905.536)
+18:15:14.182 [Thread-40] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+18:15:14.185 [Thread-40] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-3} closing ...
+18:15:14.188 [Thread-40] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-3} closed
+18:15:24.144 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on chenyadeMacBook-Pro.local with PID 4570 (/Users/macbookpro/soft/实习/recording_back/ruoyi-admin/target/classes started by macbookpro in /Users/macbookpro/soft/实习/recording_back)
+18:15:24.145 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+18:15:25.089 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:15:25.090 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+18:15:25.101 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:15:26.065 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-4} inited
+18:15:26.792 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:15:27.712 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+18:15:27.713 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+18:15:27.752 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:15:27.869 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 3.769 seconds (JVM running for 2970.287)
+18:18:57.823 [Thread-52] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+18:18:57.827 [Thread-52] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-4} closing ...
+18:18:57.831 [Thread-52] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-4} closed
+18:18:59.378 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on chenyadeMacBook-Pro.local with PID 4570 (/Users/macbookpro/soft/实习/recording_back/ruoyi-admin/target/classes started by macbookpro in /Users/macbookpro/soft/实习/recording_back)
+18:18:59.378 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+18:19:00.086 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:19:00.087 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+18:19:00.096 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:19:00.962 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-5} inited
+18:19:01.619 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:19:02.188 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+18:19:02.189 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+18:19:02.200 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:19:02.226 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 2.88 seconds (JVM running for 3184.644)
+18:19:34.346 [Thread-64] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+18:19:34.348 [Thread-64] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-5} closing ...
+18:19:34.350 [Thread-64] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-5} closed
+18:19:45.764 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on chenyadeMacBook-Pro.local with PID 4570 (/Users/macbookpro/soft/实习/recording_back/ruoyi-admin/target/classes started by macbookpro in /Users/macbookpro/soft/实习/recording_back)
+18:19:45.765 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+18:19:46.846 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:19:46.847 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+18:19:46.855 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:19:47.627 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-6} inited
+18:19:48.311 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:19:48.974 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+18:19:48.975 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+18:19:48.986 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:19:49.101 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 3.381 seconds (JVM running for 3231.519)
+18:23:50.580 [Thread-70] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+18:23:50.584 [Thread-70] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-6} closing ...
+18:23:50.589 [Thread-70] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-6} closed
+18:23:52.156 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on chenyadeMacBook-Pro.local with PID 4570 (/Users/macbookpro/soft/实习/recording_back/ruoyi-admin/target/classes started by macbookpro in /Users/macbookpro/soft/实习/recording_back)
+18:23:52.156 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+18:23:52.849 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:23:52.850 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+18:23:52.856 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:23:53.630 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-7} inited
+18:23:54.269 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:23:54.868 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+18:23:54.869 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+18:23:54.880 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:23:54.907 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 2.783 seconds (JVM running for 3477.326)
+18:24:01.399 [Thread-79] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+18:24:01.402 [Thread-79] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-7} closing ...
+18:24:01.406 [Thread-79] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-7} closed
+18:24:10.392 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on chenyadeMacBook-Pro.local with PID 4570 (/Users/macbookpro/soft/实习/recording_back/ruoyi-admin/target/classes started by macbookpro in /Users/macbookpro/soft/实习/recording_back)
+18:24:10.392 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+18:24:11.474 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:24:11.474 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+18:24:11.481 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:24:12.325 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-8} inited
+18:24:13.022 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:24:13.907 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+18:24:13.909 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+18:24:13.935 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:24:14.048 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 3.7 seconds (JVM running for 3496.466)
+18:31:05.023 [Thread-85] INFO  sys-user - [shutdownAsyncManager,31] - ====关闭后台任务任务线程池====
+18:31:05.026 [Thread-85] INFO  c.a.d.p.DruidDataSource - [close,2032] - {dataSource-8} closing ...
+18:31:05.030 [Thread-85] INFO  c.a.d.p.DruidDataSource - [close,2104] - {dataSource-8} closed
+18:36:26.948 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on chenyadeMacBook-Pro.local with PID 4570 (/Users/macbookpro/soft/实习/recording_back/ruoyi-admin/target/classes started by macbookpro in /Users/macbookpro/soft/实习/recording_back)
+18:36:26.950 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,652] - The following profiles are active: druid
+18:36:28.054 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+18:36:28.054 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.39]
+18:36:28.064 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+18:36:28.808 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,985] - {dataSource-9} inited
+18:36:28.811 [Druid-ConnectionPool-Create-1219288435] INFO  c.a.d.p.DruidAbstractDataSource - [setFailContinuous,1799] - {dataSource-9} failContinuous is true
+18:36:29.421 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+18:36:30.128 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+18:36:30.129 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+18:36:30.143 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+18:36:30.172 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 3.267 seconds (JVM running for 4232.59)
+19:16:57.120 [Druid-ConnectionPool-Create-1219288435] INFO  c.a.d.p.DruidAbstractDataSource - [setFailContinuous,1804] - {dataSource-9} failContinuous is false
