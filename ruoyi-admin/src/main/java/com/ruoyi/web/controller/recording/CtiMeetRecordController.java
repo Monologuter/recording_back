@@ -41,19 +41,6 @@ public class CtiMeetRecordController extends BaseController
     }
 
     /**
-     * 导出会议记录列表
-     */
-    @PreAuthorize("@ss.hasPermi('recording:meet:export')")
-    @Log(title = "会议记录", businessType = BusinessType.EXPORT)
-    @GetMapping("/export")
-    public AjaxResult export(CtiMeetRecord ctiMeetRecord)
-    {
-        List<CtiMeetRecord> list = ctiMeetRecordService.selectCtiMeetRecordList(ctiMeetRecord);
-        ExcelUtil<CtiMeetRecord> util = new ExcelUtil<CtiMeetRecord>(CtiMeetRecord.class);
-        return util.exportExcel(list, "meet");
-    }
-
-    /**
      * 获取会议记录详细信息
      */
     @PreAuthorize("@ss.hasPermi('recording:meet:query')")
@@ -85,16 +72,6 @@ public class CtiMeetRecordController extends BaseController
         return toAjax(ctiMeetRecordService.updateCtiMeetRecord(ctiMeetRecord));
     }
 
-    /**
-     * 删除会议记录
-     */
-    @PreAuthorize("@ss.hasPermi('recording:meet:remove')")
-    @Log(title = "会议记录", businessType = BusinessType.DELETE)
-	@DeleteMapping("/{ids}")
-    public AjaxResult remove(@PathVariable String[] ids)
-    {
-        return toAjax(ctiMeetRecordService.deleteCtiMeetRecordByIds(ids));
-    }
 
     /**
      * 对讲记录批量下载

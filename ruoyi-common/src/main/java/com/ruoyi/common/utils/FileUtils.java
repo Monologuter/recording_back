@@ -1,9 +1,8 @@
-package com.ruoyi.common.utils.gb;
-
-import javax.imageio.ImageIO;
+package com.ruoyi.common.utils;
 
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.*;
 import java.util.zip.ZipEntry;
@@ -100,7 +99,7 @@ public class FileUtils {
 			delAllFile(folderPath); // 删除完里面所有内容
 			String filePath = folderPath;
 			filePath = filePath.toString();
-			java.io.File myFilePath = new java.io.File(filePath);
+			File myFilePath = new File(filePath);
 			myFilePath.delete(); // 删除空文件夹
 
 		} catch (Exception e) {
@@ -172,7 +171,7 @@ public class FileUtils {
 		try {
 			String filePath = filePathAndName;
 			filePath = filePath.toString();
-			java.io.File myDelFile = new java.io.File(filePath);
+			File myDelFile = new File(filePath);
 			myDelFile.delete();
 
 		} catch (Exception e) {
